@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+
+p::first-line {
+    color: red;
+}
+
+.parra::first-letter{
+    color: chartreuse;
+}
+
+.parra2::first-line {
+    color: blue;
+}
+
+.parra2::first-letter{
+    color: brown;
+}
+
+
+p.final::after {
+    content: "se lo lleva la corriente";
+}
+
+h1.h1b::before {
+    color: aqua;
+    content: url(/images/210828-200.png);
+}
+
+
+.h1c::selection{
+    color: rebeccapurple;
+    background-color: aquamarine;
+}
+
+.h1c::selection{
+    color: rebeccapurple;
+    background-color: aquamarine;
+}
+
+.parrafobe2::selection{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
